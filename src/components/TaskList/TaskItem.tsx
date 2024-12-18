@@ -38,6 +38,9 @@ export default function TaskItem({
             {task}
           </p>
         </div>
+
+        {/* Dates are changed to string when applying JSON.stringify which when parsed back to JSON later when fetched from local storage is now in string format. methods like getMonth(), getMunutes() are now not usable in this string.*/}
+
         {/* <div className="task-dates">
           <p>
             Added: {addedDate?.getDay()}/{addedDate?.getMonth()}/
