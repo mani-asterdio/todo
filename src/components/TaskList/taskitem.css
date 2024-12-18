@@ -1,0 +1,48 @@
+.taskItemContainer {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebedf0;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.task-info__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkbox-name {
+    display: flex;
+    gap: 6px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;      
+}
+
+.edit-icon {
+    color: gray;
+}
+
+.delete-icon {
+    color:red;
+}
+
+.task-name {
+    font-size: 20px;
+}
+
+.checkbox-input {
+    background-color: black;
+    color: black;
+}
+
+.task-dates {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

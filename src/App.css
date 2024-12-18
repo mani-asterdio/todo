@@ -1,0 +1,23 @@
+.app-container {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.app {
+  box-sizing: border-box;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 2px 1px 20px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+
+.radio-form {
+  padding: 0px 12px;
+  display: flex;
+  gap: 6px;
+}
